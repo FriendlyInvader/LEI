@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "pagination": {
+      "currentPage": 1,
+      "perPage": 10,
+      "from": 1,
+      "to": 10,
+      "total": 40,
+      "lastPage": 4
+    }
+  },
+  "links": {
+    "first": "https://api.gleif.org/api/v1/lei-issuers?page%5Bnumber%5D=1&page%5Bsize%5D=10",
+    "next": "https://api.gleif.org/api/v1/lei-issuers?page%5Bnumber%5D=2&page%5Bsize%5D=10",
+    "last": "https://api.gleif.org/api/v1/lei-issuers?page%5Bnumber%5D=4&page%5Bsize%5D=10"
+  },
+  "data": [
+    {
+      "type": "lei-issuers",
+      "id": "029200067A7K6CH0H586",
+      "attributes": {
+        "lei": "029200067A7K6CH0H586",
+        "name": "Central Securities Clearing System PLC",
+        "marketingName": "Central Securities Clearing System plc of Nigeria",
+        "website": "https://lei.cscs.ng/cscslei/cscs-lei.php",
+        "accreditationDate": "2018-01-30T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/029200067A7K6CH0H586/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/029200067A7K6CH0H586/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/029200067A7K6CH0H586"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "097900BEFH0000000217",
+      "attributes": {
+        "lei": "097900BEFH0000000217",
+        "name": "Centrálny depozitár cenných papierov SR",
+        "marketingName": "CSD Slovakia",
+        "website": "https://lei.cdcp.sk",
+        "accreditationDate": "2018-01-30T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/097900BEFH0000000217/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/097900BEFH0000000217/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/097900BEFH0000000217"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "213800WAVVOPS85N2205",
+      "attributes": {
+        "lei": "213800WAVVOPS85N2205",
+        "name": "London Stock Exchange LEI Limited",
+        "marketingName": "London Stock Exchange",
+        "website": "https://www.lseg.com/LEI",
+        "accreditationDate": "2017-11-06T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/213800WAVVOPS85N2205/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/213800WAVVOPS85N2205/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/213800WAVVOPS85N2205"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "253400M18U5TB02TW421",
+      "attributes": {
+        "lei": "253400M18U5TB02TW421",
+        "name": "Небанковская кредитная организация акционерное общество \"Национальный расчетный депозитарий\"",
+        "marketingName": "National Settlement Depository, Russia",
+        "website": "https://www.lei-code.ru",
+        "accreditationDate": "2018-01-05T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/253400M18U5TB02TW421/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/253400M18U5TB02TW421/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/253400M18U5TB02TW421"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "254900LXHEVKYGERER05",
+      "attributes": {
+        "lei": "254900LXHEVKYGERER05",
+        "name": "Depozitarul Central SA",
+        "marketingName": "Depozitarul Central, Romania",
+        "website": "https://lei.roclear.ro/",
+        "accreditationDate": "2018-12-06T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/254900LXHEVKYGERER05/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/254900LXHEVKYGERER05/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/254900LXHEVKYGERER05"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "254900PMALKJRL1YGQ18",
+      "attributes": {
+        "lei": "254900PMALKJRL1YGQ18",
+        "name": "Qatar Central Bank",
+        "marketingName": "Qatar Credit Bureau",
+        "website": "https://www.cb.gov.qa/lei/",
+        "accreditationDate": "2019-07-26T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/254900PMALKJRL1YGQ18/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/254900PMALKJRL1YGQ18/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/254900PMALKJRL1YGQ18"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "259400L3KBYEVNHEJF55",
+      "attributes": {
+        "lei": "259400L3KBYEVNHEJF55",
+        "name": "Krajowy Depozyt Papierów Wartościowych S.A.",
+        "marketingName": "KDPW",
+        "website": "https://lei.kdpw.pl/",
+        "accreditationDate": "2016-12-21T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/259400L3KBYEVNHEJF55/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/259400L3KBYEVNHEJF55/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/259400L3KBYEVNHEJF55"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "315700LK78Z7C0WMIL03",
+      "attributes": {
+        "lei": "315700LK78Z7C0WMIL03",
+        "name": "Centrální Depozitář Cenných Papírů, a.s.",
+        "marketingName": "CSD Prague",
+        "website": "https://www.cdcp.cz/?lang=en",
+        "accreditationDate": "2017-12-01T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/315700LK78Z7C0WMIL03/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/315700LK78Z7C0WMIL03/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/315700LK78Z7C0WMIL03"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "335800FVH4MOKZS9VH40",
+      "attributes": {
+        "lei": "335800FVH4MOKZS9VH40",
+        "name": "Legal Entity Identifier India Limited",
+        "marketingName": "LEIL",
+        "website": "https://www.ccilindia-lei.co.in/",
+        "accreditationDate": "2016-12-21T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/335800FVH4MOKZS9VH40/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/335800FVH4MOKZS9VH40/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/335800FVH4MOKZS9VH40"
+      }
+    },
+    {
+      "type": "lei-issuers",
+      "id": "335800NFZPTMGTPAHE42",
+      "attributes": {
+        "lei": "335800NFZPTMGTPAHE42",
+        "name": "National Securities Depository Limited",
+        "marketingName": "National Securities Depository Limited",
+        "website": "http://lei-register.nsdl.co.in/",
+        "accreditationDate": "2023-12-06T00:00:00+00:00"
+      },
+      "relationships": {
+        "jurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/335800NFZPTMGTPAHE42/jurisdictions"
+          }
+        },
+        "fundJurisdictions": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-issuers/335800NFZPTMGTPAHE42/fundJurisdictions"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-issuers/335800NFZPTMGTPAHE42"
+      }
+    }
+  ]
+}

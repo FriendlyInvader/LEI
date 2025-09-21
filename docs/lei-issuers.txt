@@ -1,0 +1,41 @@
+lei-issuers.json
+├── meta
+│   └── pagination
+│       ├── currentPage: 1
+│       ├── perPage: 10
+│       ├── from: 1
+│       ├── to: 10
+│       ├── total: 40
+│       └── lastPage: 4
+├── links
+│   ├── first: "https://api.gleif.org/api/v1/lei-issuers?page[number]=1&page[size]=10"
+│   ├── next: "https://api.gleif.org/api/v1/lei-issuers?page[number]=2&page[size]=10"
+│   └── last: "https://api.gleif.org/api/v1/lei-issuers?page[number]=4&page[size]=10"
+└── data (Array of 10 LEI Issuer objects)
+    ├── [0] LEI Issuer Object
+    │   ├── type: "lei-issuers"
+    │   ├── id: "029200067A7K6CH0H586"
+    │   ├── attributes
+    │   │   ├── lei: "029200067A7K6CH0H586"
+    │   │   ├── name: "Central Securities Clearing System PLC"
+    │   │   ├── marketingName: "Central Securities Clearing System plc of Nigeria"
+    │   │   ├── website: "https://lei.cscs.ng/cscslei/cscs-lei.php"
+    │   │   └── accreditationDate: "2018-01-30T00:00:00+00:00"
+    │   ├── relationships
+    │   │   ├── jurisdictions
+    │   │   │   └── links
+    │   │   │       └── related: "https://api.gleif.org/api/v1/lei-issuers/.../jurisdictions"
+    │   │   └── fundJurisdictions
+    │   │       └── links
+    │   │           └── related: "https://api.gleif.org/api/v1/lei-issuers/.../fundJurisdictions"
+    │   └── links
+    │       └── self: "https://api.gleif.org/api/v1/lei-issuers/..."
+    ├── [1] LEI Issuer Object (CSD Slovakia)
+    ├── [2] LEI Issuer Object (London Stock Exchange)
+    ├── [3] LEI Issuer Object (National Settlement Depository, Russia)
+    ├── [4] LEI Issuer Object (Depozitarul Central, Romania)
+    ├── [5] LEI Issuer Object (Qatar Central Bank)
+    ├── [6] LEI Issuer Object (KDPW Poland)
+    ├── [7] LEI Issuer Object (CSD Prague)
+    ├── [8] LEI Issuer Object (LEIL India)
+    └── [9] LEI Issuer Object (National Securities Depository Limited)

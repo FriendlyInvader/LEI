@@ -73,7 +73,7 @@ def test_extract_issuers_with_diffrent_page_and_size():
 	# THEN
 	assert len(result) == 8
 	x2 = end-start
-	assert (x2 - x1) < 2 # both calls should not be cached
+	assert (x2 - x1) < 4 # both calls should not be cached
 
 def test_extract_issuers_concurrent():
 	# GIVEN

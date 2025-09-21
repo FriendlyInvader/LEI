@@ -1,5 +1,4 @@
-# Task
-
+# LEI Issuer Fetcher & Cache Service (Python)
 
 ## 1. Install packages
 
@@ -13,7 +12,7 @@ pip install -r requirements.txt
 python -m pytest
 ~~~
 
-## 3. The tests reprresents tasks
+## 3. The tests represents tasks
 
 ### 3.1 Task 1. Fetches LEI Issuers from the given GLEIF API endpoint, handling pagination
 
